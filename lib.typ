@@ -3,7 +3,7 @@
 #let muted-color = luma(160)
 #let block-bg-color = luma(240)
 
-#let muted(it) = {text(fill: muted-color, it)}
+#let text-muted(it) = {text(fill: muted-color, it)}
 
 // Report template
 #let kunskap(

@@ -1,4 +1,4 @@
-#import "../lib.typ": kunskap
+#import "@preview/kunskap:0.1.0": *
 
 #show: kunskap.with(
     title: "Your report title",
@@ -19,9 +19,9 @@
     //headings-font: ("Source Sans Pro", "Source Sans 3"),
 
     // Colors
-    //link-color: luma(0),
-    //muted-color: luma(0),
-    //block-bg-color: luma(100%),
+    //link-color: link-color,
+    //muted-color: muted-color,
+    //block-bg-color: block-bg-color,
 )
 
 #lorem(120)

@@ -47,8 +47,8 @@ This level is already intended to be used as a "paragraph heading."  #lorem(15)
 #pagebreak()
 = Second page
 
-After the first page, the header text will be set in a #muted[muted color], with
-the title of the report on the right-hand side.
+After the first page, the header text will be set in a #text-muted[muted color],
+with the title of the report on the right-hand side.
 
 #quote(block: true, attribution: [from the Henry Cary literal translation of 1897])[
   ... I seem, then, in just this little thing to be wiser than this man at
