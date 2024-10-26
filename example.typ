@@ -1,4 +1,4 @@
-#import "lib.typ": kunskap, muted
+#import "lib.typ": *
 
 #show: kunskap.with(
     title: "Kunskap: a report template",
