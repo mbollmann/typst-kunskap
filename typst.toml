@@ -1,0 +1,12 @@
+[package]
+name = "kunskap"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["Marcel Bollmann <marcel@bollmann.me>"]
+license = "MIT-0"
+description = "A template with generous spacing for reports, assignments, course documents, and similar documents."
+
+[template]
+path = "template"
+entrypoint = "main.typ"
+thumbnail = "thumbnail.png"
