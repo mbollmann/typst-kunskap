@@ -2,11 +2,13 @@
 
 #show: kunskap.with(
     title: "Your report title",
-    author: ("First Author", "Second Author"),
+    author: "John Doe",
     date: datetime(year: 2024, month: 10, day: 26),
-    header: "Meta information here",
+    header: "Course name",
 
     // Paper size, fonts, and colors can optionally be customized as well
+
+    // Paper size
     //paper-size: "a4",
 
     // Fonts
@@ -17,9 +19,9 @@
     //headings-font: ("Source Sans Pro", "Source Sans 3"),
 
     // Colors
-    //link-color: ...,
-    //muted-color: ...,
-    //block-bg-color: ...,
+    //link-color: luma(0),
+    //muted-color: luma(0),
+    //block-bg-color: luma(100%),
 )
 
-Happy writing!
+#lorem(120)
