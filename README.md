@@ -4,6 +4,10 @@ A [Typst](https://typst.app/) template mainly intended for shorter academic
 documents such as reports, assignments, course documents, and so on.  Its name,
 _"kunskap"_, means _knowledge_ in Swedish.
 
+See [this example
+PDF](https://github.com/mbollmann/typst-kunskap/blob/main/example.pdf) for a
+longer demonstration of how it looks.
+
 ## Usage
 
 You can use this template in the Typst web app by clicking "Start from template"
@@ -38,7 +42,7 @@ following arguments:
 | `body-font` | Font for the body text | `"Noto Serif"` |
 | `body-font-size` | Font size for the body text | `10pt` |
 | `headings-font` | Font for the headings | `("Source Sans Pro", "Source Sans 3")` |
-| `raw-font` | Font for raw (i.e. monospaced) text | `("Hack", "Source Code Pro")` |
+| `raw-font` | Font for raw (i.e. monospaced) text | `("Hack", "Source Code Pro")`[^1] |
 | `raw-font-size` | Font size for raw text | `9pt` |
 | `link-color` | Color for highlighting [links] | `rgb("#3282b8")` ![Color sample](https://img.shields.io/badge/steel_blue-3282b8) |
 | `muted-color` | Color for muted text, such as page numbers and headers after the first page | `luma(160)` |
@@ -60,10 +64,9 @@ The template will initialize your document with a sample call to the `kunskap` f
 #lorem(120)
 ```
 
-
 ## Missing features
 
-Currently, this template has not been particularly optimized for styling related to:
+As of now, this template has not yet been particularly optimized for styling related to:
 
 - Bibliographies
 - Outlines (e.g. table of contents)
@@ -73,14 +76,16 @@ Currently, this template has not been particularly optimized for styling related
 ## Credits
 
 This template started out by emulating the layout of course documents in [Marco
-Kuhlmann](https://liu.se/en/employee/marku61)'s courses at Linköping University.[^1]
+Kuhlmann](https://liu.se/en/employee/marku61)'s courses at Linköping University.[^2]
 On the technical side, this template took a lot of inspiration from [the `ilm`
 template](https://github.com/talal/ilm/), even if the design decisions may be
 radically different.
 
 
 
-[^1]: If you work at Linköping University, you can set `headings-font:
+[^1]: The [Hack font](https://github.com/source-foundry/Hack) is currently not
+    available on the Typst web app, so the fallback is Source Code Pro.
+[^2]: If you work at Linköping University, you can set `headings-font:
     "KorolevLiU"` to get a LiU-branded version of this template.
 
 [links]: https://typst.app/docs/reference/model/link/

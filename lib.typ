@@ -19,7 +19,7 @@
     // Fonts
     body-font: ("Noto Serif"),
     body-font-size: 10pt,
-    raw-font: ("Hack Nerd Font", "Hack NF", "Hack", "Source Code Pro"),
+    raw-font: ("Hack Nerd Font", "Hack", "Source Code Pro"),
     raw-font-size: 9pt,
     headings-font: ("Source Sans Pro", "Source Sans 3"),
 
