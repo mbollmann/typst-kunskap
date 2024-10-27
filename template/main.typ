@@ -1,10 +1,11 @@
-#import "@preview/kunskap:0.1.0": *
+//#import "@preview/kunskap:0.1.0": *
+#import "../lib.typ": *
 
 #show: kunskap.with(
-    title: "Your report title",
-    author: "John Doe",
-    date: datetime(year: 2024, month: 10, day: 26),
-    header: "Course name",
+    title: [Instructions for writing reports],
+    author: "Anonymous Beaver",
+    header: "Learning Typst",
+    date: datetime.today().display("[month repr:long] [day padding:zero], [year repr:full]"),
 
     // Paper size, fonts, and colors can optionally be customized as well
 
@@ -24,4 +25,15 @@
     //block-bg-color: block-bg-color,
 )
 
-#lorem(120)
+#lorem(21)
+
+= A bit more detail
+
+#lorem(49)
+
+== Even more
+
+#lorem(49)
+
+=== Final comments
+#lorem(12)
