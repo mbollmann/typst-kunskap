@@ -9,9 +9,9 @@
 #let kunskap(
     // Metadata
     title: [Title],
-    author: "Author(s)",
-    header: "Context, e.g. Course Name",
-    date: none,
+    author: "Anonymous",
+    header: "",
+    date: datetime.today().display("[month repr:long] [day padding:zero], [year repr:full]"),
 
     // Paper size
     paper-size: "a4",
@@ -144,7 +144,7 @@
         }
         if date != none {
             v(2pt)
-            text(font: body-font, date.display("[month repr:long] [day padding:zero], [year repr:full]"))
+            text(font: body-font, date)
         }
         v(5em)
     }

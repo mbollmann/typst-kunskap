@@ -3,9 +3,8 @@
 #show: kunskap.with(
     title: "Kunskap: a report template",
     author: "Marcel Bollmann",
-    date: datetime(year: 2024, month: 10, day: 26),
+    date: "October 27, 2024",
     header: "Typst templates",
-    // headings-font: "KorolevLiU",
 )
 
 This template is mainly intended for academic documents such as reports,
@@ -48,7 +47,20 @@ This level is already intended to be used as a "paragraph heading."  #lorem(15)
 = Second page
 
 After the first page, the header text will be set in a #text-muted[muted color],
-with the title of the report on the right-hand side.
+with the title of the report on the right-hand side.  I typically use the
+left-hand side of the header for the name of the course or some other context
+for this report, but feel free to repurpose it, leave it empty, or just redefine
+the header altogether:
+
+```typst
+#set page(header: {
+    set text(font: "Source Sans 3", weight: "medium", fill: muted-color)
+    set align(center)
+    [A centered header]
+})
+```
+
+== Blockquotes
 
 #quote(block: true, attribution: [from the Henry Cary literal translation of 1897])[
   ... I seem, then, in just this little thing to be wiser than this man at
